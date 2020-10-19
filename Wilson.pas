@@ -78,7 +78,7 @@ begin
   Window.Maximize;
   Window.Clear(Colors.Black);
   Pen.Color := Colors.White;
-  //  Запуск 20 частиц
+  //  Запуск 20 частиц 
   loop 20 do
     RunParticle(0, Window.Height/2, DegToRad(Random(-10, 10)), Random(startSpeed,0.85*startSpeed), Random(-0.01,0.01));
   //  Сохраняем в файл
