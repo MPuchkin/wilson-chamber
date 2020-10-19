@@ -1,4 +1,4 @@
-﻿uses GraphWPF;
+uses GraphWPF;
 
 const startSpeed = 50.0;
 
